@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     groq_api_key: str = ""
 
     llm_provider: str = "groq"
-    llm_model: str = "qwen/qwen3.8-27b"
+    llm_model: str = "llama3-8b-8192"
 
 
 
