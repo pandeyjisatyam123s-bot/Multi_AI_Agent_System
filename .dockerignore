@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.git/
+.env
+web/dist/
+web/node_modules/
+dist/
+build/
