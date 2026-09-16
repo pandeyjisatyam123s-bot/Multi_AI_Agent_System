@@ -1,0 +1,24 @@
+[project]
+name = "multi-agent-research-system"
+version = "0.1.0"
+description = "Multi-Agent Research System using LangGraph and FastAPI"
+authors = [
+    { name = "Author", email = "author@example.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn>=0.27.0",
+    "langchain>=0.1.0",
+    "langgraph>=0.0.26",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+    "langchain-openai>=0.0.5",
+    "langchain-google-genai>=0.0.9",
+    "streamlit>=1.31.0",
+    "python-dotenv>=1.0.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
